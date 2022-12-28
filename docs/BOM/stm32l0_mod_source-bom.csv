@@ -1,0 +1,28 @@
+Row,Description,Part,References,Value,Footprint,Quantity Per PCB,Status,Datasheet
+1,Unpolarized capacitor,C,C2 C3 C4 C6 C8,100n,C_0603_1608Metric,5, ,~
+2,Unpolarized capacitor,C,C9 C10,1u,C_0805_2012Metric,2, ,~
+3,Unpolarized capacitor,C,C1 C5,2u2,C_0805_2012Metric,2, ,~
+4,Unpolarized capacitor,C,C7,10u,C_0805_2012Metric,1, ,~
+5,"Ferrite bead, small symbol",FerriteBead_Small,FB1,100R @ 100MHz,L_0805_2012Metric,1, ,~
+6,"Generic connector, single row, 01x10, script generated (kicad-library-utils/schlib/autogen/connector/)",Conn_01x10,J1,inputs,PinHeader_1x10_P2.54mm_Vertical,1, ,~
+7,"Generic connector, single row, 01x04, script generated (kicad-library-utils/schlib/autogen/connector/)",Conn_01x04,J2 J3,signal_outputs,PinHeader_1x04_P2.54mm_Vertical,2, ,~
+8,Resistor,R,R1,10k,R_0603_1608Metric,1, ,~
+9,2-Channel 12-Bit D/A Converters with SPI Interface and Internal Reference (2.048V),MCP4822,U2,MCP4822,MSOP-8_3x3mm_P0.65mm,1, ,http://ww1.microchip.com/downloads/en/DeviceDoc/20002249B.pdf
+10,"ARM Cortex-M0+ MCU, 16KB flash, 8KB RAM, 32MHz, 1.65-3.6V, 15 GPIO, TSSOP-20",STM32L031F4Px,U1,STM32L031F4Px,TSSOP-20_4.4x6.5mm_P0.65mm,1, ,http://www.st.com/st-web-ui/static/active/en/resource/technical/document/datasheet/DM00140359.pdf
+
+
+
+
+
+Project info:
+Schematic:,stm32l0_mod_source
+Variant:,default
+Revision:,0.1
+Date:,2022-01-15
+KiCad Version:,6.0.5+dfsg-1~bpo11+1
+Statistics:
+Component Groups:,10
+Component Count:,17 (14 SMD/ 3 THT)
+Fitted Components:,17 (14 SMD/ 3 THT)
+Number of PCBs:,1
+Total Components:,17

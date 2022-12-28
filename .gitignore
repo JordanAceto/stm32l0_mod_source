@@ -14,3 +14,7 @@ fp-info-cache
 *.elf
 *.list
 *.o
+
+fp-info-cache
+*-backups
+*kicad_prl
