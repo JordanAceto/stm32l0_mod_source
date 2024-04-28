@@ -1,3 +1,4 @@
+# KiCad ignores
 *.000
 *.bak
 *.bck
@@ -18,3 +19,13 @@ fp-info-cache
 fp-info-cache
 *-backups
 *kicad_prl
+
+# STM32CubeIDE ignores
+.metadata
+.settings
+[Rr]elease
+[Dd]ebug
+*.launch
+
+# misc ignores
+.vscode
